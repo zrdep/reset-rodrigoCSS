@@ -1,0 +1,10 @@
+NORMALIZE
+
+	O Normalize é uma folha de estilos que tem como primícia propiciar uma base solida para o Dev. estrutura sua interface web. Diferentemente do Reset, que remove todas as informações contidas dentro da folha de estilos padrões dos navegadores, 
+        o normalize procura manter a maior parte de características úteis possíveis e corrigir as inconsistências que possa haver dentro de cada
+        user-agent stylesheet, culminando em um processamento mais fluido e com resultados mais previsíveis.
+	O Normalize ele funciona aplicando propriedades dentro da utilização de cada estilo, para modificar a estrutura HTML e garantir sua 
+        fluidez de maneira semelhante em casa Bowser. Por exemplo, dentro desse mesmo estilo pode conter linhas para ajustar, margens, padding e o tamanho da fonte, além de
+        possibilitar que as imagens, tabelas e outros elementos visuais possam ser exibidos corretamente. Dentro de sua utilização, o Normalize pode ser inserido de maneira fácil apenas baixando o arquivo
+        e inserindo-o de maneira direta dentro do código principal, fazendo assim com que todos os elementos de estilo sejam aplicados de maneira automática na página.
+
