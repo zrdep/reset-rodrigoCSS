@@ -9,27 +9,29 @@
 <body>
     <main>
     <h1>Reset CSS</h1>
-    <p>Reset:<br> 
+    <section>
+        <p>Quando falamos sobre CSS uma das maiores frustrações dos programadores é perder a maior parte do tempo ajustando o layout do CSS.</p>
 
-Quando falamos sobre CSS uma das maiores frustrações dos programadores é perder a maior parte do tempo ajustando o layout do CSS. <br> 
+        <p>O layout muda de navegador para navegador, por exemplo, no Chrome a margem de um título <code>h1</code> pode ser de 21px, já em outros navegadores esse valor pode variar, fazendo com que existem diferenças significativas causando um efeito cascata devastador em layouts complexos.</p>
 
-O layout muda de navegador para navegador, por exemplo, no Chrome a margem de um título h1 pode ser de 21px, já em outros navegadores esse valor pode variar, fazendo com que existem diferenças significativas causando um efeito cascata devastador em layouts complexos. <br> 
+        <p>A solução para esse problema recebeu o nome de <strong>Reset CSS</strong>, uma técnica para zerar o CSS padrão usado nos navegadores.</p>
 
-A solução para esse problema recebeu o nome de Reset CSS, uma técnica para zerar o CSS padrão usado nos navegadores. <br> 
+        <h2>Como aplicar</h2>
+        <p>Para aplicar o <strong>Reset CSS</strong>, primeiramente deve criar um arquivo e o nomeá-lo como <code>reset.css</code>, após isso adicione o código, podendo ser criado de maneira caseira ou então usar o código desenvolvido por <strong>Eric Meyer</strong> que é uma referência. Por fim conecte o <code>reset.css</code> ao seu arquivo HTML, é importante frisar que o <code>reset.css</code> de ser o primeiro CSS a ser importado.</p>
 
-Para aplicar o Reset CSS, primeiramente deve criar um arquivo e o nomeá-lo como reset.css, após isso adicione o código, podendo ser criado de maneira caseira ou então usar o código desenvolvido por Eric Meyer que é uma referência. Por fim conecte o reset.css ao seu arquivo HTML, é importante frisar que o reset.css de ser o primeiro CSS a ser importado. <br> 
+        <h2>Funcionamento</h2>
+        <p>Agora falando um pouco da funcionalidade do <strong>Reset CSS</strong>, A primeira grande regra seleciona uma lista enorme de elementos HTML e "zera" suas propriedades mais comum. Ele também garante que a fonte seja herdada, evitando inconsistências de tamanho e família de fonte.</p>
 
-Agora falando um pouco da funcionalidade do Reset CSS, A primeira grande regra seleciona uma lista enorme de elementos HTML e "zera" suas propriedades mais comum. Ele também garante que a fonte seja herdada, evitando inconsistências de tamanho e família de fonte. <br> 
+        <p>A regra para <code>ol, ul</code> remove os marcadores de lista.</p>
 
-A regra para ol, ul remove os marcadores de lista. <br> 
+        <p>A regra para <code>table</code> garante que as bordas das células da tabela se unam de forma consistente.</p>
 
-A regra para table garante que as bordas das células da tabela se unam de forma consistente. <br> 
+        <h2>Vantagens e Desvantagens</h2>
+        <p><strong>Desvantagens de uso</strong> - Remove estilos que, em muitos casos, seriam convenientes por padrão, como o negrito nas tags <code>strong</code> ou o recuo dos parágrafos, obrigando você a estilizá-los do zero. Por zerar tudo, você é obrigado a declarar regras básicas até mesmo para os elementos mais simples.</p>
 
-Desvantagens de uso - Remove estilos que, em muitos casos, seriam convenientes por padrão, como o negrito nas tags strong ou o recuo dos parágrafos, obrigando você a estilizá-los do zero. Por zerar tudo, você é obrigado a declarar regras básicas até mesmo para os elementos mais simples. <br> 
+        <p><strong>Vantagens de uso</strong> - Elimina as variações de renderização entre navegadores diferentes e você não é pego de surpresa por estilos ou margens indesejadas do navegador.</p>
 
-Vantagens de uso - Elimina as variações de renderização entre navegadores diferentes e você não é pego de surpresa por estilos ou margens indesejadas do navegador. <br> 
-
- </p>
+    </section>
     <h2>Código Padrão do Reset CSS</h2>
         <pre>
             <code>
